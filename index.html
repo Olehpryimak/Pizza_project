@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Pizza</title>
+
+    <!-- Bootsrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+    <!-- LESS основний файл -->
+    <link rel="stylesheet/less" type="text/css" href="assets/less/main.less" />
+    <!-- LESS JavaScript компілятор -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/less.js/2.5.3/less.min.js"></script>
+
+
+</head>
+<body>
+<div id="cart"></div>
+
+
+<div class="container">
+    <div class="row" id="pizza_list">
+        <div class="  col-lg-15 col-xs-7 col-sm-7 col-md-5  ">
+            <div class="thumbnail pizza-card">
+                <img src="assets/images/pizza_1.jpg">
+
+                <div class="caption"><h3>Імпреза</h3>
+
+                    <p>Балик, салямі, курятина, сир моцарелла, сир рокфорд, ананаси, томатна паста, петрушка</p>
+
+                    <p style="margin-left: 10%;margin-right: 10%">
+                        <a href="#" class="btn btn-warning">Купити</a>
+                        <a href="#" class="btn btn-warning"  style="float: right">Купити</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class=" col-lg-15 col-xs-7 col-sm-7 col-md-5 ">
+            <div class="thumbnail pizza-card">
+                <img src="assets/images/pizza_2.jpg">
+
+                <div class="caption"><h3>BBQ</h3>
+
+                    <p>Мисливські ковбаски, ковбаски папероні, шинка, сир домашній, шампінйони, петрушка, оливки</p>
+
+                    <p style="margin-left: 10%;margin-right: 10%">
+                        <a href="#" class="btn btn-warning">Купити</a>
+                        <a href="#" class="btn btn-warning"  style="float: right">Купити</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class=" col-lg-15 col-xs-7 col-sm-7 col-md-5   ">
+            <div class="thumbnail pizza-card">
+                <img src="assets/images/pizza_3.jpg">
+
+                <div class="caption"><h3>Міксовий поло</h3>
+
+                    <p>Вітчина, курятина копчена, сир моцарелла, ананаси, кукурудза, петрушка, соус томатний</p>
+
+                    <p style="margin-left: 10%;margin-right: 10%">
+                        <a href="#" class="btn btn-warning">Купити</a>
+                        <a href="#" class="btn btn-warning" style="float: right">Купити</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class=" col-lg-15 col-xs-7 col-sm-7 col-md-5   ">
+            <div class="thumbnail pizza-card">
+                <img src="assets/images/pizza_3.jpg">
+
+                <div class="caption"><h3>Міксовий поло</h3>
+
+                    <p>Вітчина, курятина копчена, сир моцарелла, ананаси, кукурудза, петрушка, соус томатний</p>
+
+                    <p style="margin-left: 10%;margin-right: 10%">
+                        <a href="#" class="btn btn-warning">Купити</a>
+                        <a href="#" class="btn btn-warning" style="float: right">Купити</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="FixedTop">
+
+            <div class="row line1 col-lg-8 col-sm-6 col-md-10 col-xs-6">
+                <div class="col-sm-5 col-md-4 col-lg-3" style="padding-top: 1%;padding-bottom: 1%">(044)555 2 555</div>
+
+                <div class="visible-lg visible-md col-md-4 col-lg-3" >24 години / 7 днів на тиждень</div>
+
+                <div class="visible-lg col-lg-3" >Безкоштовна доставка піци</div>
+
+                <div class="col-xs-12 col-sm-7 col-md-4 col-lg-3">
+                    <a href="#" class="btn btn-warning buttonlog">Ввійти</a>
+                </div>
+            </div>
+            <div class=" hidden-xs line2 col-sm-12">Піца</div>
+        </div>
+        <div class="mou "></div>
+        <div class=" col-xs-5 col-sm-5 col-md-2 col-lg-3"style="padding:0;position:fixed; top: 0;right: 0;height: 100%;background: white;">
+            <div class="buy-pannel1">
+                <span style="font-size: 18px;">Замовлення</span>
+                <a href="#" class="btn btn-warning" style="border-radius: 9rem">3</a>
+                <a href="#" class="btn " style="color: darkgoldenrod;font-size: 12px">Очистити замовлення</a>
+            </div>
+
+
+
+            <div class="buy-pannel2">
+                <div style="height: 150px;border-bottom: 0.2px solid #d6ccca;position: relative;">
+                    <span style="display: inline-block;width: 60%">
+                        <div class="buyname">BBQ(Мала)</div>
+                        <div style="height: 40px">
+                            <span class="icons">
+                                <span>
+                                    <i class="glyphicon glyphicon-ban-circle" style="font-size: 12px"></i>
+                                </span>
+
+                                <span>30</span>
+                            </span>
+                            <span class="icons">
+                                <span>
+                                    <i class="glyphicon glyphicon-unchecked"STYLE="color: black"></i>
+                                </span>
+
+                                <span>460</span>
+                            </span>
+                        </div>
+                        <div>
+                            <span STYLE="padding-left: 5%" >556грн</span>
+
+                            <span>
+                                <button type="button" class="btn btn-success" style="border-radius: 4rem">
+                                       +
+                                </button>
+                                 4
+                                <button type="button" class="btn btn-danger" style="border-radius: 4rem">
+                                      -
+                                </button>
+                            </span>
+
+                            <span>
+                                <button type="button" class="btn btn-default" style="border-radius: 4rem">
+                                      x
+                                </button>
+                            </span>
+                        </div>
+                    </span>
+                    <span style="width: 30%;float: right;display: inline-block;position: absolute;right: -15%;top:10%">
+                         <img src="assets/images/pizza_1.jpg">
+                    </span>
+                </div>
+                <div style="height: 150px;border-bottom: 0.2px solid #d6ccca;position: relative;">
+                    <span style="display: inline-block;width: 60%">
+                        <div class="buyname">Россо Густо(Мала)</div>
+                        <div style="height: 40px">
+                            <span class="icons">
+                                <span>
+                                    <i class="glyphicon glyphicon-ban-circle" style="font-size: 12px"></i>
+                                </span>
+
+                                <span>30</span>
+                            </span>
+                            <span class="icons">
+                                <span>
+                                    <i class="glyphicon glyphicon-unchecked"STYLE="color: black"></i>
+                                </span>
+
+                                <span>400</span>
+                            </span>
+                        </div>
+                        <div>
+                            <span STYLE="padding-left: 5%" >189грн</span>
+
+                            <span>
+                                <button type="button" class="btn btn-success" style="border-radius: 4rem">
+                                       +
+                                </button>
+                                 1
+                                <button type="button" class="btn btn-danger" style="border-radius: 4rem">
+                                      -
+                                </button>
+                            </span>
+
+                            <span STYLE="padding-left: 5%">
+                                <button type="button" class="btn btn-default" style="border-radius: 4rem">
+                                      x
+                                </button>
+                            </span>
+                        </div>
+                    </span>
+                    <span style="width: 30%;float: right;display: inline-block;position: absolute;right: -15%;top:10%">
+                         <img src="assets/images/pizza_1.jpg">
+                    </span>
+                </div>
+                <div style="height: 150px;border-bottom: 0.2px solid #d6ccca;position: relative;">
+                    <span style="display: inline-block;width: 60%">
+                        <div class="buyname">Місковий поло(Велика)</div>
+                        <div style="height: 40px;width: 100%">
+                            <span class="icons">
+                                <span>
+                                    <i class="glyphicon glyphicon-ban-circle" style="font-size: 12px"></i>
+                                </span>
+
+                                <span>40</span>
+                            </span>
+                            <span class="icons">
+                                <span>
+                                    <i class="glyphicon glyphicon-unchecked"STYLE="color: black"></i>
+                                </span>
+
+                                <span>480</span>
+                            </span>
+                        </div>
+                        <div>
+                            <span STYLE="padding-left: 5%" >179грн</span>
+
+                            <span >
+                                <button type="button" class="btn btn-success" style="border-radius: 4rem">
+                                       +
+                                </button>
+                                 1
+                                <button type="button" class="btn btn-danger" style="border-radius: 4rem">
+                                      -
+                                </button>
+                            </span>
+
+                            <span >
+                                <button type="button" class="btn btn-default" style="border-radius: 4rem">
+                                      x
+                                </button>
+                            </span>
+                        </div>
+                    </span>
+                    <span style="width: 30%;float: right;display: inline-block;position: absolute;right: -15%;top:10%">
+                         <img src="assets/images/pizza_1.jpg">
+                    </span>
+                </div>
+            </div>
+
+            <div>
+                <div>
+                    <span style="padding-left: 10%">Сума замовлення</span>
+
+                    <span style="padding-right:20%;float: right">924 грн</span>
+                </div>
+
+                <div>
+                    <a href="#" class="btn btn-warning" style="width: 80%;margin-left: 10%" >Замовити</a>
+                </div>
+            </div>
+
+        </div>
+
+
+
+        <div class="glyphicon glyphicon-bookmark" style="font-size: 140px;transform:rotate(180deg);color: #ff901c;position: fixed;bottom: 0;left:0%"></div>
+
+        <span class="label2" aria-hidden="true">Цього<br>  тижня<br> на все <br>-20%</span>
+
+        <div class="glyphicon glyphicon-bookmark" style="font-size: 120px;color: #ff901c;position: fixed;top: 0;left:0"></div>
+
+        <span class="label1" aria-hidden="true"> КМА<br> PIZZA</span>
+    </div>
+
+
+
+</div>
+
+
+
+
+
+<!-- jQuery JavaScript -->
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"> </script>
+
+<!--Bootsrap JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+<!--Own JavaScript -->
+<!--<script type="text/javascript"  src="assets/js/main.js"> </script>-->
+</body>
+</html>
